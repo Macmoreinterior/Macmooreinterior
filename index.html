@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#27251f">
+    <meta name="description" content="Macmore Interior creates thoughtful, timeless homes that feel personal, welcoming, and lived in.">
+    <link rel="icon" href="data:,">
+    <title>Macmore Interior | Thoughtful homes, meaningful living</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="home-page">
+    <header class="site-header home-header">
+      <a class="wordmark" href="index.html" aria-label="Macmore Interior home">macmore<span>interior</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a class="nav-link is-active" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link nav-contact" href="contact.html">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="home-hero" aria-label="Macmore Interior design inspiration">
+        <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-bs-ride="carousel" data-bs-interval="5500">
+          <div class="carousel-inner">
+            <div class="carousel-item active hero-slide" role="img" aria-label="Warm, thoughtfully designed interior" style="background-image: url('images/interior image 10.jpeg')"></div>
+            <div class="carousel-item hero-slide" role="img" aria-label="A welcoming modern living space" style="background-image: url('images/interior image 2.jpeg')"></div>
+            <div class="carousel-item hero-slide" role="img" aria-label="Carefully layered interior details" style="background-image: url('images/interior image 3.jpeg')"></div>
+            <div class="carousel-item hero-slide" role="img" aria-label="A calm and comfortable home" style="background-image: url('images/interior image 4.jpeg')"></div>
+            <div class="carousel-item hero-slide" role="img" aria-label="A timeless interior with natural materials" style="background-image: url('images/interior image 12.jpeg')"></div>
+          </div>
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">MACMORE INTERIOR DESIGN</p>
+          <h1>Make room for<br>feeling <em>at home.</em></h1>
+          <p>Thoughtful spaces, timeless details, and a home that feels like you.</p>
+          <a class="button button-light" href="about.html">Discover our approach <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-bottom">
+          <span>Spaces made for living</span>
+          <div class="hero-controls" aria-label="Background image controls">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous background image">←</button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next background image">→</button>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#services"><span aria-hidden="true">↓</span> Explore</a>
+      </section>
+
+      <section class="home-intro section-wrap" id="services">
+        <div>
+          <p class="eyebrow">A HOME THAT FEELS LIKE YOURS</p>
+          <h2>Good design makes<br>everyday <em>feel special.</em></h2>
+        </div>
+        <div class="home-intro-copy">
+          <p>From a thoughtful room refresh to a complete home transformation, we bring clarity, care, and a personal point of view to every space.</p>
+          <a class="text-link" href="contact.html">Let’s talk about your space <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="home-about" id="about">
+        <div class="home-about-image" role="img" aria-label="A warm, thoughtfully designed living room" style="background-image: url('images/interior image 7.jpeg')"></div>
+        <div class="home-about-copy">
+          <p class="eyebrow">A LITTLE ABOUT MACMORE</p>
+          <h2>Spaces with soul.<br><em>Made for your life.</em></h2>
+          <p>Macmore Interior is a design studio for living well. We create homes that feel personal, welcoming, and lived in—not just beautiful in a photograph. Every project starts with listening: to how you live, what you love, and what you want home to feel like.</p>
+          <p>With a thoughtful, collaborative process and care for every detail, we bring the pieces together into a space that feels calm, considered, and entirely your own.</p>
+          <a class="text-link" href="about.html">More about our approach <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="testimonial section-wrap" aria-labelledby="testimonial-title">
+        <p class="eyebrow">KIND WORDS</p>
+        <h2 id="testimonial-title">A home should feel like <em>you.</em></h2>
+        <blockquote>
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>We wanted a home that felt warm, personal, and easy to live in. Macmore listened to what mattered to us and brought it all together in a way that feels like home.</p>
+          <footer>Sample testimonial — replace with an approved client quote</footer>
+        </blockquote>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="index.html">macmore<span>interior</span></a>
+      <p>Thoughtful homes. Meaningful living.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span>© <span data-year></span> Macmore Interior</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
